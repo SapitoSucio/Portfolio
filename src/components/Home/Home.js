@@ -18,22 +18,22 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                Me llamo
-                <strong className="main-name"> David Sélem García</strong>
+                Soy
+                <strong className="main-name"> DAVID SÉLEM GARCÍA</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 50, textAlign: "left",  }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingTop: 100,paddingBottom: 50 }}>
               <img src={homeLogo} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Home2/>
     </section>
   );
 }

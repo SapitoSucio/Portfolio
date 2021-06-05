@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
+  AiFillFacebook,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -16,37 +16,37 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              DEJA ME<span className="purple"> PRESENTO </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Apasionado por la tecnología, gadgetsy las computadoras desde pequeño, estudié Ing. en Sistemas Computacionales y ahora disque sé programar 😎 
+              
               <br />
-              <br />I am fluent in classics like
+              <br />Me muevo bien en lenguajes como
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C#, Java y Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Mi campo de interés es constuir nuevas&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">Tecnologías y Productos Web </b>
+              </i>
+              &nbsp; y
+              <i>
+                <b className="purple"> Aplicaciones Móviles usando Flutter </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with
+              He desarollado proyectos usando tecnologías como
               <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+                <b className="purple"> Flask</b>
               </i>
-              &nbsp; like
+              &nbsp;,
               <i>
-                <b className="purple"> Node.js and React.js</b>
+                <b className="purple"> Node.js</b>
               </i>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,44 +57,24 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>ENCUÉNTRAME</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              ¿Quieres desarollar algún proyecto? <span className="purple">contactame </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://www.facebook.com/sapitosucio/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <AiFillFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.instagram.com/sapitosucio/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
