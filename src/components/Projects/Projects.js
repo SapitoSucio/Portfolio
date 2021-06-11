@@ -4,13 +4,12 @@ import ProjectCard from "./ProjectCards";
 import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import notaria5 from "../../Assets/Projects/notaria5cortes.ga.png";
+import unacar from "../../Assets/Projects/unacar.jpg";
+import jomax from "../../Assets/Projects/jomax.png";
+import vcstudio from "../../Assets/Projects/vcstudio.png";
+import v1 from "../../Assets/Projects/v1.webp";
+import v2 from "../../Assets/Projects/thumbnail.png";
 
 function Projects() {
   return (
@@ -18,82 +17,71 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mis trabajos más <strong className="purple">recientes </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+
+        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={unacar}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Sistema de Gestión de Proyectos Académicos - UNACAR"
+              description="Este proyecto fue realizado como parte de mi servicio social en la UNACAR, es una aplicación completa, permite a los profesores registrar los proyectos que estén llevando a cabo."
+              link="https://unacar.herokuapp.com/"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vcstudio}
+              isBlog={false}
+              title="VC Studio Sitio Web"
+              description="Un sitio web que estaba realizando para una amiga, al final no se terminó usando y quedó inconcluso."
+              link="https://vcstudio.ga"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={jomax}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Jomax Sitio Web"
+              description="Sitio Web realizado para Jomax Multi-Servicios, una página hecha con bootstrap."
+              link="https://jomaxservicios.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={notaria5}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Notaria 5 Sitio Web"
+              description="Un sitio web sencillo con descripción de los servicios ofrecidos."
+              link="https://notaria5cortes.ga"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
+          
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
         </Row>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Blog </strong> Posts
+          Mis recientes <strong className="purple">videos </strong> en YouTube
         </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+        <p style={{ color: "white" }}>A veces me grabo 🤪</p>
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
+              imgPath={v1}
+              link="https://www.youtube.com/watch?v=mGjta-BXgqM"
+              title="Instalación de YouTube Vanced"
+              
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
+              imgPath={v2}
+              link="https://www.youtube.com/watch?v=h2SJLTvcbrM"
+              title="Cambiar a 10 digitos todos tus contactos"
+              
             />
           </Col>
         </Row>

@@ -5,6 +5,7 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillFacebook,
   AiFillInstagram,
+  AiFillYoutube
 } from "react-icons/ai";
 
 function Home2() {
@@ -17,8 +18,7 @@ function Home2() {
               DEJA ME<span className="purple"> PRESENTO </span>
             </h1>
             <p className="home-about-body">
-              Apasionado por la tecnología, gadgetsy las computadoras desde pequeño, estudié Ing. en Sistemas Computacionales y ahora disque sé programar 😎 
-              
+              Apasionado por la tecnología, gadgets y las computadoras desde pequeño, estudié Ing. en Sistemas Computacionales y ahora disque sé programar 😎 
               <br />
               <br />Me muevo bien en lenguajes como
               <i>
@@ -32,7 +32,7 @@ function Home2() {
               </i>
               &nbsp; y
               <i>
-                <b className="purple"> Aplicaciones Móviles usando Flutter </b>
+                <b className="purple"> apps usando Flutter </b>
               </i>
               <br />
               <br />
@@ -80,6 +80,17 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              <li className="social-icons">
+              <a
+                href="https://www.youtube.com/channel/UCq9cj3M_g0JoE97O1_KqvLA"
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "white" }}
+                className="icon-colour home-social-icons"
+              >
+                <AiFillYoutube />
+              </a>
+            </li>
             </ul>
           </Col>
         </Row>

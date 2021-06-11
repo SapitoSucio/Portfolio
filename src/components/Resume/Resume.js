@@ -35,12 +35,12 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Descargar CV
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+            <h3 className="resume-title">Experiencia</h3>
             <Resumecontent
               title="JUNIOR ML ENGINEER [Omdena]"
               date="June 2020 - August 2020"

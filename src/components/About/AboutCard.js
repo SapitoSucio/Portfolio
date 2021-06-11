@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,15 +7,16 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Hola, mi nombre es <span className="purple">David Sélem García</span>, recibido en Ingeniería en Sistemas Computacionales por parte de la <span className="purple"> Universidad Autónoma del Carmen</span>
+            <br />Comencé estudiando programación en lenguajes como Java, C#, Python, pero me terminé orientando un poco más por la programación web. 😳
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            De momento estoy aprendiendo sobre <span className="purple">Flutter</span> para el adentrarme al desarrollo movil.
+            <br />
+            <br />
+            
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -31,7 +31,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
