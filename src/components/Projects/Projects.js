@@ -12,6 +12,7 @@ import v1 from "../../Assets/Projects/v1.webp";
 import v2 from "../../Assets/Projects/thumbnail.png";
 
 function Projects() {
+  document.title = "Mis proyectos";
   return (
     <Container fluid className="project-section">
       <Particle />

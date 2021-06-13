@@ -7,7 +7,9 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
+  document.title = "Sobre mi";
   return (
+    
     <Container fluid className="about-section">
       <Particle />
       <Container>

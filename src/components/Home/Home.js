@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
+  document.title = "David Sélem García | Portfolio";
   return (
     <section>
       <Container fluid className="home-section" id="home">

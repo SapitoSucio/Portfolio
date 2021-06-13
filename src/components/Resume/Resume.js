@@ -6,6 +6,7 @@ import pdf from "../../Assets/Soumyajit-Behera.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
+  document.title = "Mi CV";
   return (
     <Container fluid className="resume-section">
       <Particle />
