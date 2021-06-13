@@ -10,12 +10,15 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGa from 'react-ga';
 
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [load, upadateLoad] = useState(true);
   useEffect(() => {
+    ReactGa.initialize('G-850YDTZSLD')
+    ReactGa.pageview(window.location.pathname + window.location.search)
     setTimeout(() => {
       upadateLoad(false);
     }, 1200);
